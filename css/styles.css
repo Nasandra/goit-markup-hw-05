@@ -598,6 +598,9 @@ img {
   padding: 0 10px 0 16px;
   color: #fff;
   outline: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 
 .subscr-email-input::placeholder {
@@ -611,6 +614,8 @@ img {
 .subscribe-btn {
   cursor: pointer;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
   border-radius: 4px;
   border: none;
@@ -618,6 +623,7 @@ img {
   min-width: 165px;
   height: 40px;
   background: #4d5ae5;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -631,10 +637,11 @@ img {
 }
 
 .subscr-send-icon {
+  margin-left: 16px;
   fill: #fff;
 }
 
-/* <!--------------Modal window-----------------> */
+/*--Modal window--*/
 
 .backdrop {
   width: 100%;
@@ -814,12 +821,12 @@ img {
 }
 
 .span-checkbox {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   background-color: transparent;
