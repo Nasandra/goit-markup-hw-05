@@ -813,7 +813,7 @@ img {
   margin-bottom: 24px;
 }
 
-.modal-checkbox {
+.span-checkbox {
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -830,7 +830,7 @@ img {
   fill: transparent;
 }
 
-.modal-check:checked + .modal-check-text .modal-checkbox {
+.modal-check:checked + .modal-check-text .span-checkbox {
   border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
